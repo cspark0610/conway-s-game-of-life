@@ -64,13 +64,14 @@ td {
   color: #ced5db;
   cursor: pointer;
   text-align: center;
-  transition: background 0.3s;
+  transition: all 0.3s;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
 
 .btn:hover {
   background: #62d0ff;
+  color: #092454;
 }
 
 #clear_btn:hover {
