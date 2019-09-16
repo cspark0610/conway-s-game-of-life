@@ -1,33 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Juego de la Vida</title>
-  <link rel="stylesheet" href="libraries/bootstrap.min.css">
-  <link rel="stylesheet" href="game.css">
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Juego de la Vida</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="game.css" />
+  </head>
 
-<body>
-  <h2>Juego de la Vida</h2>
-  <table id='board'></table>
+  <body>
+    <section id="sidebar">
+      <button id="step_btn" class="btn">STEP</button>
+      <button id="auto_btn" class="btn">AUTO</button>
+      <button id="random_btn" class="btn">RANDOM</button>
+      <button id="clear_btn" class="btn">CLEAR</button>
+    </section>
+    <section id="content">
+      <h2>JUEGO DE LA VIDA</h2>
+      <table id="board"></table>
 
-  <div id='control_panel'>
-    <button id='step_btn' class='btn btn-success'>Step</button>
-    <button id='play_btn' class='btn btn-primary'>Play</button>
-    <button id='reset_btn' class='btn btn-warning'>Reset Random</button>
-    <button id='clear_btn' class='btn btn-info'>Clear</button>
-  </div>
+      <footer class="footer">
+        <p>
+          Construido por [mi] en
+          <a href="http://www.plataforma5.la/">Plataforma 5</a>
+        </p>
+      </footer>
+    </section>
 
-  <br><br>
-
-  <footer class="footer">
-    <div class="container">
-      <p class="text-muted">Construido por [mi] en <a href="http://www.plataforma5.la/">Plataforma 5</a></p>
-    </div>
-  </footer>
-
-  <script src="game.js"></script>
-
-</body>
+    <script src="game.js"></script>
+  </body>
 </html>
