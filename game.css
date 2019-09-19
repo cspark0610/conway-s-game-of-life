@@ -16,6 +16,8 @@ body {
 #board {
   width: 40vw;
   height: 40vw;
+  max-width: 75vh;
+  max-height: 75vh;
 }
 
 #board td {
