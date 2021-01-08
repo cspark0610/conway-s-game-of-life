@@ -1,5 +1,7 @@
 # Conway's Game of Life
 
+![logop5](https://p5-hall-of-fame.s3.amazonaws.com/p5logo.png)
+
 REGLAS:
 
 1. Cualquier celda viva con dos o tres vecinos vivos, vive en la próxima generación.
