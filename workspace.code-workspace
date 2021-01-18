@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../03-Sorting"
+		},
+		{
+			"name": "04-Conway-s-Game-of-Life",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "04-Conway-s-Game-of-Life"
+	}
+}
